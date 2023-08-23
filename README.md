@@ -1,2 +1,3 @@
-# Stride - Bootstrap 5 HTML template
-A simple but clean Bootstrap 5 HTML template from https://templatedeck.com
+# Global Commodity Coco
+
+Your all in one commodity place for coconut products
