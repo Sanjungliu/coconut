@@ -101,6 +101,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -128,13 +129,12 @@
 
     <main>
       <div class="w-100 overflow-hidden bg-gray-100" id="top">
-        <div class="container">
+        <div class="container position-relative">
           <div
-            class="col-12 col-lg-8 mt-0 h-100 top-0 end-0 bg-cover"
+            class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover"
             data-aos="fade-left"
             style="background-image: url(img/webp/images.jpg)"
           ></div>
-          <div class="row">
             <div
               class="col-lg-7 py-vh-6 position-relative"
               data-aos="fade-right"
@@ -206,30 +206,26 @@
         </div>
       </div>
 
-      <div class="bg-light" id="ourproduct">
-        <div class="">
-          <div class="">
-            <div class="">
-              <div class="align-items-center scrollx">
-                <div
-                  class="py-vh-6 d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <img
-                    src="img/webp/Charcoal Briquette.jpg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="1164"
-                    height="776"
-                  />
+      <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="ourproduct">
+        <div class="container d-flex justify-content-center text-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-6">
+              <h1 data-aos="fade-left">Our Product</h1>
+
+              <div class="row gx-5 d-flex">
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                  >
-                    <h1 class="px-vw-5">Charcoal Briquette</h1>
-                    <p class="px-vw-5">
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/webp/charcoal_briquette.jpg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Charcoal Briquette</h1>
+                    <p class="">
                       Coconut Charcoal Briquette is produced from 100% natural
                       coconut shell. Processed with high quality according to
                       international standards. Coconut Charcoal Briquette is
@@ -240,17 +236,19 @@
                   </div>
                 </div>
 
-                <div class="py-vh-6 d-flex">
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
                     data-aos="fade-right"
-                    data-aos-delay="300"
-                    style="margin-left: 100px"
-                  >
-                    <h1 class="px-vw-4" style="width: 100%">
-                      Virgin Coconut Oil
-                    </h1>
-                    <p class="px-vw-4">
+                    style="
+                      background-image: url(img/webp/virgin_coconut_oil.jpg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Virgin Coconut Oil</h1>
+                    <p class="">
                       Extracted from fresh coconuts by a cold pressing process,
                       which does not involve the application of heat. This
                       ensures that all of the beneficial nutrients and enzymes
@@ -259,37 +257,21 @@
                       non-sticky and more effective than regular coconut oil.
                     </p>
                   </div>
-                  <img
-                    src="img/webp/Virgin Coconut Oil.jpg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="1164"
-                    height="776"
-                    data-aos-delay="200"
-                    data-aos="fade-up"
-                    style="margin-right: 700px"
-                  />
                 </div>
 
-                <div
-                  class="py-vh-6 d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <img
-                    src="img/webp/RBD Coconut Oil.jpg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="1164"
-                    height="776"
-                  />
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                  >
-                    <h1 class="px-vw-5">RBD Coconut Oil</h1>
-                    <p class="px-vw-5">
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/webp/rbd_coconut_oil.jpg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">RBD Coconut Oil</h1>
+                    <p class="">
                       RBD Coconut Oil is a clear white liquid and will turn into
                       a semi solid at room temperature. For crude coconut oil to
                       be fit for consumption, it must be refined, bleached and
@@ -300,15 +282,19 @@
                   </div>
                 </div>
 
-                <div class="py-vh-6 d-flex">
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
                     data-aos="fade-right"
-                    data-aos-delay="300"
-                    style="margin-left: 100px"
-                  >
-                    <h1 class="px-vw-4" style="width: 100%">Coconut Fiber</h1>
-                    <p class="px-vw-4">
+                    style="
+                      background-image: url(img/webp/coconut_fiber.jpg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Coconut Fiber</h1>
+                    <p class="">
                       Coconut Fiber is a natural fiber extracted from outer
                       shell of the coconut. Coconut coir is the fibrous material
                       found between the hard shell, inner and outer layers of
@@ -322,37 +308,21 @@
                       coconut).
                     </p>
                   </div>
-                  <img
-                    src="img/webp/Coconut Fiber.jpg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="auto"
-                    height="auto"
-                    data-aos-delay="200"
-                    data-aos="fade-up"
-                    style="margin-right: 700px"
-                  />
                 </div>
 
-                <div
-                  class="py-vh-6 d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <img
-                    src="img/webp/Coconut Peat.png"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="1164"
-                    height="776"
-                  />
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                  >
-                    <h1 class="px-vw-5">Coconut Peat</h1>
-                    <p class="px-vw-5">
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/webp/coconut_peat.png);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Coconut Peat</h1>
+                    <p class="">
                       Cocopeat is an alternative organic planting medium to
                       replace soil. Cocopeat is made from coconut husks and has
                       an earthy texture. This cocopeat is in the form of
@@ -366,45 +336,31 @@
                   </div>
                 </div>
 
-                <div class="py-vh-6 d-flex">
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-2"
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
                     data-aos="fade-right"
-                    data-aos-delay="300"
-                    style="margin-left: 100px"
-                  >
-                    <h1 class="px-vw-4" style="width: 100%">Copra</h1>
-                    <p class="px-vw-4">
+                    style="
+                      background-image: url(img/webp/copra.jpg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Copra</h1>
+                    <p class="">
                       Copra is the dried flesh of the coconut fruit. Copra is a
                       very important coconut derivative product, because it is
                       the raw material for making coconut oil and its
                       derivatives.
                     </p>
                   </div>
-                  <img
-                    src="img/webp/Copra.jpg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="auto"
-                    height="auto"
-                    data-aos-delay="200"
-                    data-aos="fade-up"
-                    style="margin-right: 750px"
-                  />
                 </div>
 
-                <div
-                  class="py-vh-2 d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <div
-                    class="row-cols-md-2"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                  >
-                    <h1 class="px-vw-2">Kaolin</h1>
-                    <p class="px-vw-2">
+                <div class="col-md-11 py-5">
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Kaolin</h1>
+                    <p class="">
                       Kaolin is a relief mass that occurs from clay minerals
                       which contain Hydros Aluminum and Kaolinite as the main
                       minerals consisting of two types.
@@ -412,52 +368,40 @@
                   </div>
                 </div>
 
-                <div
-                  class="py-vh-3 d-flex"
-                  data-aos="fade-up"
-                  data-aos-delay="200"
-                >
-                  <img
-                    src="img/webp/kaolin-clay.jpeg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="1164"
-                    height="776"
-                  />
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-1"
-                    data-aos="fade-left"
-                    data-aos-delay="300"
-                  >
-                    <h1 class="px-vw-5">Kaolin Clay</h1>
-                    <p class="px-vw-5">Packaging:</p>
-                    <p class="px-vw-5">500 kg & 750 kg (Jumbo Bag)</p>
-                    <p class="px-vw-5">25 kg & 40 kg (Small Bag)</p>
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
+                    data-aos="fade-right"
+                    style="
+                      background-image: url(img/webp/kaolin_clay.jpeg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Kaolin Clay</h1>
+                    <p class="">Packaging:</p>
+                    <p class="">500 kg & 750 kg (Jumbo Bag)</p>
+                    <p class="">25 kg & 40 kg (Small Bag)</p>
                   </div>
                 </div>
 
-                <div class="py-vh-4 d-flex">
+                <div class="col-md-11 py-5">
                   <div
-                    class="row-cols-md-1"
+                    class="shadow ratio rounded bg-cover bp-center align-self-end"
                     data-aos="fade-right"
-                    data-aos-delay="300"
-                    style="margin-left: 100px"
-                  >
-                    <h1 class="px-vw-5" style="width: 100%">Kaolin Noodle</h1>
-                    <p class="px-vw-5">Packaging:</p>
-                    <p class="px-vw-5">1000 kg (Jumbo Bag)</p>
-                    <p class="px-vw-5">50 kg (Small Bag)</p>
+                    style="
+                      background-image: url(img/webp/kaolin_noodle.jpeg);
+                      --bs-aspect-ratio: 100%;
+                    "
+                  ></div>
+
+                  <div class="py-3" data-aos="fade-right" data-aos-delay="300">
+                    <h1 class="">Kaolin Noodle</h1>
+                    <p class="">Packaging:</p>
+                    <p class="">1000 kg (Jumbo Bag)</p>
+                    <p class="">50 kg (Small Bag)</p>
                   </div>
-                  <img
-                    src="img/webp/kaolin-noodle.jpeg"
-                    class="rounded shadow img-fluid col-md-3"
-                    alt="nice gallery image"
-                    width="auto"
-                    height="auto"
-                    data-aos-delay="200"
-                    data-aos="fade-up"
-                    style="margin-right: 750px"
-                  />
                 </div>
               </div>
             </div>
@@ -467,7 +411,15 @@
 
       <div class="py-vh-4 w-100 overflow-hidden" id="aboutus">
         <div class="container">
-          <div class="row d-flex justify-content-between align-items-center">
+          <h1
+            class="row d-flex justify-content-center text-center"
+            data-aos="fade-left"
+          >
+            About Us
+          </h1>
+          <div
+            class="row d-flex justify-content-between align-items-center py-3"
+          >
             <div class="col-lg-6">
               <div class="row gx-5 d-flex">
                 <div class="col-md-11">
@@ -500,8 +452,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4" style="margin-right: 100px">
-              <h1 data-aos="fade-left">About Us</h1>
+            <div class="col-lg-4">
               <h4 class="py-5 border-top border-dark" data-aos="fade-left">
                 PT. GLOBAL COMMODITY COCO is a leading supplier company in
                 Indonesia engaged in the high quality coconut products, such as
@@ -532,9 +483,8 @@
                   or just simply send an inquiry and we will reply to you
                   immediately.
                 </h2>
-                <h2 class="display-6 mb-5">
-                  Contact us at sales@globalcommoditycoco.com
-                </h2>
+                <p class="">Contact us at</p>
+                <h3>sales@globalcommoditycoco.com</h3>
               </div>
             </div>
           </div>
