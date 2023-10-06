@@ -1,4 +1,4 @@
 # Global Commodity Coco
 
-Your all in one commodity place for coconut products
+Your all in one commodity place for coconut products.
 
